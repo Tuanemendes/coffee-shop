@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 10px;
+    
+}
+.name {
+    font-size: 2rem;
+    font-family: var(--font-nunito);
+    font-weight: 600;
+    padding-top: 15px;
+    margin-right: 8px;
+}
+
