@@ -1,6 +1,6 @@
 
-import Logo from './components/logo'
-import Navbar from './components/navbar'
+import Logo from './components/logo/logo'
+import Navbar from './components/navbar/navbar'
 
 export default function Home() {
   return (

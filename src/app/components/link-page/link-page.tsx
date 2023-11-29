@@ -1,10 +1,6 @@
 import Link from 'next/link'
 import React from 'react'
-
-interface ILink{
-    location?: string;
-    nameLink: string;
-}
+import ILink from './link-page.type'
 
 const LinkPage = ({nameLink}: ILink) => {
   return (

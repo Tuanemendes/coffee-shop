@@ -1,6 +1,6 @@
 
 import React from 'react'
-import LinkPage from '../link-page'
+import LinkPage from '../link-page/link-page'
 import navbarData from './data/navbar.data'
 
 const Navbar = () => {
