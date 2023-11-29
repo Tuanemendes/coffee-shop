@@ -1,15 +1,17 @@
 
 import React from 'react'
 import LinkPage from '../link-page'
+import navbarData from './data/navbar.data'
 
 const Navbar = () => {
   return (
     <>
       <nav>
-      <LinkPage nameLink='Home'></LinkPage>
-      <LinkPage nameLink='Menu'></LinkPage>
-      <LinkPage nameLink='service'></LinkPage>
-      <LinkPage nameLink='contact'></LinkPage>
+        {
+          navbarData.map(link =>(
+            <LinkPage nameLink={link.nameLink}/>
+          ))
+        }
       </nav>
     </>
   )

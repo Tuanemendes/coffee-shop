@@ -1,16 +1,17 @@
 import Link from 'next/link'
 import React from 'react'
 
-interface Link{
+interface ILink{
+    location?: string;
     nameLink: string;
 }
 
-const LinkPage = (props:Link) => {
+const LinkPage = ({nameLink}: ILink) => {
   return (
     <>
       <ul>
         <li>
-          <Link href={"/"}>{props.nameLink}</Link>
+          <Link href={"#"}>{nameLink}</Link>
         </li>
       </ul>
     </>
