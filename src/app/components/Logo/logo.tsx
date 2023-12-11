@@ -13,7 +13,6 @@ const Logo = () => {
             width={40} 
             height={40} 
             priority
-            className={styles.logo}
         />
        </a> 
         

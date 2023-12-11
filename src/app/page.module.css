@@ -1,12 +1,12 @@
-.main {
+.container{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
-}
+  padding: 8px;
 
+}
+/* 
 .description {
   display: inherit;
   justify-content: inherit;
@@ -226,4 +226,4 @@
   to {
     transform: rotate(0deg);
   }
-}
+} 

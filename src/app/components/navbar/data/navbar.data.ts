@@ -8,9 +8,13 @@ const navbarData = [
         nameLink: "Menu",
     },
     {
-        location: "/test",
-        nameLink: "Test",
+        location: "/service",
+        nameLink: "Serviço",
     },
+    {
+        location:"/contact",
+        nameLink:"Contato"
+    }
 
     /* treinar o map */
     // {
